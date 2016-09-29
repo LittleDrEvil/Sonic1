@@ -54,7 +54,7 @@ public class GdxOne extends ApplicationAdapter {
 
     @Override
     public void render() {
-        
+        System.out.println(x + " " + y);
         batchBackground.begin();
         batchBackground.draw(imgBack, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         batchBackground.draw(imgFloor, 0, 0, Gdx.graphics.getWidth(), 40);
